@@ -18,6 +18,7 @@ exports.config = {
     cucumberOpts:{
         require: ['../step_definitions/**/*.js'],
         format: ['json:../reports/report.json'],
+        //for start test with personal tag -> into command line -> npm test -- --tags "@tagsName"
         tags: yargs.tags || '@smoke'
     },
     onPrepare: () =>{
