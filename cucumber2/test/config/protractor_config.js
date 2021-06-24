@@ -8,6 +8,10 @@ exports.config = {
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
     capabilities: {
+        //add settings for parallel run tests
+        //command for run some potocs (some windows): npm test -- --tags "@tagName" --instances 2  
+        shardTestFiles: yargs.instances > 1,
+        maxInstances:    yargs.instances || 1, //potocs count
         browserName: "chrome",
         chromeOptions: {
             args: ['--no-sandbox', '--window-size=1920,1080']
