@@ -1,0 +1,22 @@
+{
+  "name": "cucumber2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./test/config/protractor_config.js",
+    "postinstall": "webdriver-manager update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  }
+}

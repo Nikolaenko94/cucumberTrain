@@ -1,0 +1,144 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page-title;page-title",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Page title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open \"https://www.epam.com/\" url",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Page title should be \"EPAM | Enterprise Software Development, Design & Consulting\"",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page-title;page-title",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Page title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open \"https://www.google.com/?gws_rd=ssl\" url",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Page title should be \"Google\"",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I wait \"3\" seconds",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3007000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page-title",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Home Page Title",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "..\\features\\home_page_title.feature"
+  }
+]
