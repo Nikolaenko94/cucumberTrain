@@ -19,6 +19,10 @@ exports.config = {
         require: ['../step_definitions/**/*.js'],
         format: ['json:../reports/report.json'],
         //for start test with personal tag -> into command line -> npm test -- --tags "@tagsName"
+        //if we want start only special tags we can -> npm test -- --tags "@tagName1 or @tagName2"
+        //if we want start global tag, but we don't want start one local tag for this global -> npm test -- --tags "@globalTag and not @localTagForThisGlobal"
+        //if we want start tests with some tags (not one) how chain, we can -> npm test -- --tags "@tagName1 and @tagName2" -> if we have tests with @tagName1 @tagName2 we run only this
+        //we can also combinated our expressions, for example -> npm test -- --tags "(@tagName1 and @tagName2) and not @tagName3"        
         tags: yargs.tags || '@smoke'
     },
     onPrepare: () =>{
