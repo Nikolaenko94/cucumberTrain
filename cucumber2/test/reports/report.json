@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3566000000
+              "duration": 2998000000
             }
           },
           {
@@ -45,20 +45,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 14000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 9,
-            "name": "I wait \"3\" seconds",
+            "name": "I wait \"1\" seconds",
             "match": {
               "location": "..\\step_definitions\\browser_steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 3002000000
+              "duration": 1014000000
             }
           },
           {
@@ -78,6 +78,69 @@
           {
             "name": "@epam",
             "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page-title;page-title",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Page title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I open \"https://www.google.com/?gws_rd=ssl\" url",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Page title should be \"Google\"",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I wait \"1\" seconds",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1012000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
           }
         ],
         "type": "scenario"
