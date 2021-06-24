@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3573000000
+              "duration": 3212000000
             }
           },
           {
@@ -28,24 +28,37 @@
             "line": 6,
             "name": "Page title should be \"EPAM | Enterprise Software Development, Design & Consulting\"",
             "match": {
-              "location": "..\\step_definitions\\browser_steps.js:10"
+              "location": "..\\step_definitions\\browser_steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Page title should not be \"EPAM | \"",
+            "match": {
+              "location": "..\\step_definitions\\browser_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
+            "line": 8,
             "name": "I wait \"3\" seconds",
             "match": {
-              "location": "..\\step_definitions\\browser_steps.js:14"
+              "location": "..\\step_definitions\\browser_steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 3001000000
+              "duration": 3003000000
             }
           },
           {
@@ -53,7 +66,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 15000000
             }
           }
         ],
@@ -69,46 +82,46 @@
         "description": "",
         "id": "home-page-title;page-title",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 10,
         "name": "Page title",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 10,
+            "line": 11,
             "name": "I open \"https://www.google.com/?gws_rd=ssl\" url",
             "match": {
               "location": "..\\step_definitions\\browser_steps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 549000000
+              "duration": 477000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 12,
             "name": "Page title should be \"Google\"",
             "match": {
-              "location": "..\\step_definitions\\browser_steps.js:10"
+              "location": "..\\step_definitions\\browser_steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
+            "line": 13,
             "name": "I wait \"3\" seconds",
             "match": {
-              "location": "..\\step_definitions\\browser_steps.js:14"
+              "location": "..\\step_definitions\\browser_steps.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 3007000000
+              "duration": 3013000000
             }
           },
           {
