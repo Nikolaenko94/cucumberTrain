@@ -14,7 +14,8 @@
     "chai": "^4.3.4",
     "cucumber": "^7.0.0-rc.0",
     "protractor": "^7.0.0",
-    "protractor-cucumber-framework": "^8.2.0"
+    "protractor-cucumber-framework": "^8.2.0",
+    "yargs": "^17.0.1"
   },
   "devDependencies": {
     "eslint": "^7.29.0"
