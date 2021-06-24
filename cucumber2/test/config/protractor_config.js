@@ -1,4 +1,5 @@
 const path = require('path');
+const yargs = require("yargs").argv;
 
 exports.config = {
     allScriptsTimeout: 60000,
@@ -17,7 +18,7 @@ exports.config = {
     cucumberOpts:{
         require: ['../step_definitions/**/*.js'],
         format: ['json:../reports/report.json'],
-        tags: '@smoke'
+        tags: yargs.tags || '@smoke'
     },
     onPrepare: () =>{
         return browser.waitForAngularEnabled(false);
