@@ -1,2 +1,4 @@
 Cucumber
 node_modules
+cucumber-report.html
+report.json

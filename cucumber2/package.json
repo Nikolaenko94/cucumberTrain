@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "pretest": "node ./test/utils/delete_reports.js",
     "test": "protractor ./test/config/protractor_config.js",
     "postinstall": "webdriver-manager update"
   },
