@@ -4,149 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "home-page-title;page-title",
-        "keyword": "Scenario",
-        "line": 5,
-        "name": "Page title",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "I open \"https://www.epam.com/\" url",
-            "match": {
-              "location": "..\\step_definitions\\browser_steps.js:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3072000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "Page title should be \"EPAM | Enterprise Software Development, Design & Consulting\"",
-            "match": {
-              "location": "..\\step_definitions\\browser_steps.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "Page title should not be \"EPAM | \"",
-            "match": {
-              "location": "..\\step_definitions\\browser_steps.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 9,
-            "name": "I wait \"1\" seconds",
-            "match": {
-              "location": "..\\step_definitions\\browser_steps.js:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1009000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 14000000
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke",
-            "line": 1
-          },
-          {
-            "name": "@epam",
-            "line": 4
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "home-page-title;page-title",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "Page title",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 12,
-            "name": "I open \"https://www.google.com/?gws_rd=ssl\" url",
-            "match": {
-              "location": "..\\step_definitions\\browser_steps.js:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 539000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "Page title should be \"Google\"",
-            "match": {
-              "location": "..\\step_definitions\\browser_steps.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "I wait \"1\" seconds",
-            "match": {
-              "location": "..\\step_definitions\\browser_steps.js:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1002000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 15000000
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
         "id": "home-page-title;page-titles-https://www.google.com/?gws_rd=ssl",
         "keyword": "Scenario Outline",
         "line": 17,
@@ -162,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 377000000
+              "duration": 629000000
             }
           },
           {
@@ -175,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 7000000
             }
           },
           {
@@ -188,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1004000000
+              "duration": 1001000000
             }
           },
           {
@@ -229,7 +86,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1492000000
+              "duration": 3390000000
             }
           },
           {
@@ -242,7 +99,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 9000000
             }
           },
           {
@@ -255,7 +112,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1010000000
+              "duration": 1013000000
             }
           },
           {
@@ -263,7 +120,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 18000000
             }
           }
         ],
